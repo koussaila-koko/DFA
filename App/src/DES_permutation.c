@@ -30,7 +30,7 @@ long BinaireToHixa(int *tab,int nbrBit){
 }
 
 
-long permutation( int * tablePermutation, long aPermuter ,int tailleEntree, int tailleSortie) {
+long permutation( long aPermuter ,int * tablePermutation, int tailleEntree, int tailleSortie) {
 	int tabEntreBinaire[ tailleEntree ],  tabPemuterBinaire[ tailleSortie ],  pos;
 	HixaToBinaire(aPermuter,tailleEntree,tabEntreBinaire);
 	long res = 0x0L;
